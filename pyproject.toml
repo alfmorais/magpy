@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "magpy"
+version = "0.1.0"
+description = ""
+authors = ["alfmorais <alfredneto@hotmail.com>"]
+license = "MIT LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+coreapi = "*"
+django = "~=3.2"
+django-heroku = "~=0.3"
+django-jazzmin = "*"
+djangorestframework = "~=3.12"
+gunicorn = "~=20.1"
+ipdb = "^0.13.11"
+pre-commit = "^2.20.0"
+psycopg2 = "*"
+psycopg2-binary = "*"
+pytest = "7.2.0"
+pytest-cov = "4.0.0"
+pytest-django = "4.5.2"
+pytest-factoryboy = "*"
+python = "^3.10"
+PyYAML = "*"
+requests = "~=2.25"
+virtualenv = "20.0.33"
+whitenoise = "~=5.2"
+pytest-recording = "^0.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

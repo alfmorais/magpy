@@ -1,0 +1,74 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - API-Instruct-Test-Python/1.0.0
+    method: GET
+    uri: https://pypi.org/pypi/notfoundpackage/3.14.0/json
+  response:
+    body:
+      string: '{"message": "Not Found"}'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '24'
+      Content-Security-Policy:
+      - base-uri 'self'; block-all-mixed-content; connect-src 'self' https://api.github.com/repos/
+        https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com
+        fastly-insights.com *.fastly-insights.com *.ethicalads.io https://api.pwnedpasswords.com
+        https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/sre/mathmaps/ https://2p66nmmycsj3.statuspage.io;
+        default-src 'none'; font-src 'self' fonts.gstatic.com; form-action 'self'
+        https://checkout.stripe.com; frame-ancestors 'none'; frame-src https://www.youtube-nocookie.com;
+        img-src 'self' https://warehouse-camo.ingress.cmh1.psfhosted.org/ https://*.google-analytics.com
+        https://*.googletagmanager.com *.fastly-insights.com *.ethicalads.io; script-src
+        'self' https://*.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com
+        *.fastly-insights.com *.ethicalads.io 'sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0='
+        https://cdn.jsdelivr.net/npm/mathjax@3.2.2/ 'sha256-1CldwzdEg2k1wTmf7s5RWVd7NMXI/7nxxjJM2C4DqII='
+        'sha256-0POaN8stWYQxhzjKS+/eOfbbJ/u4YHO5ZagJvLpMypo=' https://www.youtube.com
+        https://s.ytimg.com; style-src 'self' fonts.googleapis.com *.ethicalads.io
+        'sha256-2YHqZokjiizkHi1Zt+6ar0XJ0OeEy/egBnlm+MDMtrM=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='
+        'sha256-JLEjeN9e5dGsz5475WyRaoA4eQOdNPxDIeUhclnJDCE=' 'sha256-mQyxHEuwZJqpxCw3SLmc4YOySNKXunyu2Oiz1r3/wAE='
+        'sha256-OCf+kv5Asiwp++8PIevKBYSgnNLNUZvxAp4a7wMLuKA=' 'sha256-h5LOiLhk6wiJrGsG5ItM0KimwzWQH/yAcmoJDJL//bY=';
+        worker-src *.fastly-insights.com
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 15 Jan 2023 21:24:36 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Server:
+      - nginx/1.13.9
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Served-By:
+      - cache-iad-kjyo7100108-IAD, cache-cgh11177-CGH
+      X-Timer:
+      - S1673817876.080084,VS0,VE158
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 404
+      message: Not Found
+version: 1
